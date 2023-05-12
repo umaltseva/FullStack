@@ -1,0 +1,27 @@
+.weather-forecast {
+    display: flex;
+}
+
+.day {
+    text-align: center;
+    margin-left: 5px;
+}
+
+.day:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.date {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background-color: #4095B5;
+    color: white;
+}
+
+.temperature {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}

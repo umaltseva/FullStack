@@ -1,0 +1,74 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, sans-serif;
+}
+
+.alias {
+    color: white;
+    font-size: 12px;
+}
+
+.real-name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+}
+
+img {
+    height: 182px;
+    position: relative;
+    bottom: 32px;
+    float: left;
+}
+
+.card_spider-man img {
+    bottom: 10px;
+}
+
+.card_captain-america {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#4568DC, #B06AB3);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.card_iron-man {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27, #b31217);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.card_black-widow {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #000, #61045F);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.card_spider-man {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27, #000);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}

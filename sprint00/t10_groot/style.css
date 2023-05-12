@@ -1,0 +1,32 @@
+h1 {
+    margin-left: 50px;
+}
+.box {
+    position: relative;
+    width: calc(100% - 200px);
+    padding: 20px;
+    background: #dddddd;
+    margin: 50px auto;
+}
+
+.box::before {
+    border-bottom: 1px solid #444444;
+    width: calc(100% + 50px);
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 0;
+    border-top: 1px solid #444444;
+    height: calc(100% - 2px);
+}
+
+.box::after {
+    top: -25px;
+    left: 0;
+    content: "";
+    border-left: 1px solid #444444;
+    position: absolute;
+    height: calc(100% + 50px);
+    border-right: 1px solid #444444;
+    width: calc(100% - 2px);
+}
