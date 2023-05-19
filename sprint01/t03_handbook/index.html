@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Turn around...</title>
+    <meta name="description" content="t03">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="Handbook">Handbook</h1>
+
+    <h3 class="header">HTML</h3>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Heading</h3>
+
+            <p>
+                The &lt;h1&gt; element defines a large heading
+            </p>
+
+            <p>Code example</p>
+
+            <code> &lt;h1&gt;This is heading 1&lt;/h1&gt;</code>
+
+            <p>Preview:</p>
+
+            <h1>This is heading 1</h1>
+        </div>
+
+
+
+        <div class="card">
+
+            <h3>Paragraph</h3>
+
+            <p>
+                The &lt;p&gt; element defines a paragraph
+            </p>
+
+            <p>Code example</p>
+
+            <code>
+                    &lt;p&gt;This is paragraph &lt;/p&gt;
+                </code>
+
+            <p>Preview:</p>
+            <p>This is paragraph p</p>
+
+        </div>
+        <div class="card">
+
+            <h3>Link</h3>
+
+            <p>
+                HTML links are defined with the &lt;a&gt; tag
+            </p>
+
+            <p>Code example</p>
+
+            <code>
+                    &lt;a href="https://www.youtube.com">This is a link &lt;/a&gt;
+    
+                </code>
+
+            <p>Preview:</p>
+
+            <a href="https://www.youtube.com">This is a link</a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Button</h3>
+
+            <p>The &lt;button&gt; tag defines a clickable button</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    &lt;button type="button">Click Me!&lt;/button&gt;
+    
+                </code>
+
+            <p>Preview:</p>
+
+            <div class="button-container">
+                <button class="button" type="button" >Click Me!</button>
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Table</h3>
+
+            <p>The &lt;table&gt; HTML element represents tabular data</p>
+
+            <p>Code example</p>
+
+            <code>
+                &lt;table&gt;
+                &lt;thead&gt;
+                &lt;tr&gt;
+                &lt;th colspan="2"&gt;The table header&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                &lt;tr&gt;
+                &lt;td&gt;The table body&lt;/td&gt;
+                &lt;td&gt;with two columns&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;/tbody&gt;
+                &lt;/table&gt;
+
+                 
+                </code>
+
+            <p>Preview:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">The table header</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The table body</td>
+                        <td>with two columns</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+
+            <h3>Text Field</h3>
+
+            <p>The &lt;input type="text"&gt; defines a single-line input field for text input</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    &lt;input type="text" name="name" id="id"&gt;
+                
+                </code>
+
+            <p>Preview:</p>
+
+            <input type="text" name="name" id="id">
+
+        </div>
+
+    </div>
+
+    <h3 class="header">CSS</h3>
+    <div class="grid">
+        <div class="card">
+
+            <h3>Linear Gradients</h3>
+
+            <p>Create gradient transition between multiple colors</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    background: linear-gradient(#e66465, #9198e5);
+    
+                </code>
+
+            <p>Preview:</p>
+
+            <div class="linear-gradient" id="linear-gradient"></div>
+
+        </div>
+        <div class="card">
+
+            <h3>Text align</h3>
+
+            <p>Specifies the horizontal alignment of text in an element</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    text-align: center;
+    
+                </code>
+
+            <p>Preview</p>
+
+            <p id="paragraph">This text has center alignment</p>
+        </div>
+        <div class="card">
+
+            <h3>Hover</h3>
+
+            <p>Specifies hover of the object.</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    #btn:hover {
+                    background-color: #ff8b8f;
+                    }
+    
+                </code>
+
+            <p>Preview</p>
+
+            <div class="button-container">
+                <button id="btn">Hover me</button>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <h3>Border</h3>
+
+            <p>Specifies the style of border.</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    border: 1px solid #4A4A66;
+    
+                </code>
+
+            <p>Preview</p>
+
+            <p id="red_border">Some text with border.</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Font style</h3>
+
+            <p>Specifies font style of text</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    font-style: italic;
+    
+                </code>
+
+            <p>Preview</p>
+
+            <p id="ff">Lorem ipsum dolor</p>
+
+        </div>
+
+
+
+
+        <div class="card">
+
+            <h3>Color</h3>
+
+            <p>Specifies color of the text.</p>
+
+            <p>Code example</p>
+
+            <code>
+
+                    color: red;
+    
+                </code>
+
+            <p>Preview</p>
+
+            <p id="color">Lorem ipsum dolor</p>
+
+        </div>
+
+
+    </div>
+
+    <h3 class="header">Web Protocols</h3>
+
+    <div class="grid_for_protocol">
+
+        <div class="card">
+
+            <h3>HTTP Methods</h3>
+
+            <p>HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure) are protocols used for communication between clients (such as
+            web browsers) and servers over the internet. They define a set of methods for requesting and responding to resources.
+            </p>
+            <p>HTTP Methods (also used in HTTPS):</p>
+        <ul>
+            <li>GET: Retrieves a resource from the server.</li>
+            <li>POST: Sends data to the server to create a new resource.</li>
+            <li>PUT: Updates a resource on the server.</li>
+            <li>DELETE: Removes a resource from the server.</li>
+            <li>HEAD: Retrieves only the headers of a resource.</li>
+            <li>PATCH: Partially updates a resource on the server.</li>
+            <li>OPTIONS: Requests information about the communication options available.</li>
+        </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>HTTP Response Status Codes</h3>
+
+            <p>HTTP/HTTPS response status codes are three-digit numbers returned by a server to indicate the outcome of a client's
+            request. They provide information about the success, redirection, client error, or server error related to the request.
+            The status codes are grouped into classes, each representing a specific category of response.</p>
+            <p>Here are the classes of HTTP/HTTPS response status codes:</p>
+            <ul>
+                <li>Informational (1xx): These codes indicate that the server has received the client's request and is continuing
+                    the process. Examples include 100 Continue, 101 Switching Protocols, etc.</li>
+                <li>Success (2xx): These codes indicate that the client's request was successfully received, understood, and
+                    processed by the server. Examples include 200 OK, 201 Created, 204 No Content, etc.</li>
+                <li>Redirection (3xx): These codes indicate that further action needs to be taken by the client to complete the
+                    request. They are often used for redirection purposes. Examples include 301 Moved Permanently, 302 Found, 304
+                    Not Modified, etc.</li>
+                <li>Client Error (4xx): These codes indicate that the client's request contains invalid syntax or cannot be
+                    fulfilled by the server. Examples include 400 Bad Request, 403 Forbidden, 404 Not Found, 429 Too Many Requests,
+                    etc.</li>
+                <li>Server Error (5xx): These codes indicate that the server encountered an error while trying to fulfill a valid
+                    request from the client. Examples include 500 Internal Server Error, 503 Service Unavailable, 504 Gateway
+                    Timeout, etc.</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>DNS</h3>
+
+            <p>
+                DNS (Domain Name System) records are used to map human-readable domain names to specific IP addresses or to provide
+                other information about a domain. Here are the different types of DNS records:
+            </p>
+
+            <ul>
+                <li>A (Address) Record: Maps a domain name to an IPv4 address.</li>
+                <li>AAAA (IPv6 Address) Record: Maps a domain name to an IPv6 address.</li>
+                <li>CNAME (Canonical Name) Record: Creates an alias or canonical name for an existing record. It maps a domain name
+                    to another domain name.</li>
+                <li>MX (Mail Exchanger) Record: Specifies the mail servers responsible for accepting incoming email for a domain. It
+                    identifies the email server for the domain.</li>
+                <li>NS (Name Server) Record: Specifies the authoritative name servers for a domain. It indicates which servers are
+                    responsible for resolving the domain name.</li>
+                <li>PTR (Pointer) Record: Maps an IP address to a domain name. It is the reverse of an A or AAAA record.</li>
+                <li>TXT (Text) Record: Allows domain owners to add arbitrary text to the DNS record. It can be used for various
+                    purposes, such as domain verification or adding descriptive text.</li>
+                <li>SRV (Service) Record: Specifies the location of services or servers for a particular protocol and domain. It
+                    provides information about available services, such as SIP, LDAP, or XMPP.</li>
+                <li>SPF (Sender Policy Framework) Record: Specifies the authorized mail servers for a domain. It helps prevent email
+                    spoofing and verifies the email sender's authenticity.</li>
+                <li>DKIM (DomainKeys Identified Mail) Record: Provides a digital signature associated with an email message,
+                    ensuring its authenticity and integrity.</li>
+                <li>SOA (Start of Authority) Record: Contains administrative information about a DNS zone, including the primary
+                    name server, contact email address, and other details.</li>
+            </ul>
+
+        </div>
+
+        <div class="card">
+
+            <h3>How to determine IP address</h3>
+<p>To determine the IP address of a domain, such as <em>google.com</em>, <em>google.com.ua</em>, or
+    <em>ucode.world</em>, you can use various methods:</p>
+
+<ol>
+    <li>
+        <strong>Using the Command Prompt (Windows) or Terminal (Mac/Linux):</strong>
+        <ol type="a">
+            <li>Open the Command Prompt (Windows) or Terminal (Mac/Linux).</li>
+            <li>Type the command <code>nslookup</code> followed by the domain name. For example:
+                <ul>
+                    <li><code>nslookup google.com</code></li>
+                    <li><code>nslookup google.com.ua</code></li>
+                    <li><code>nslookup ucode.world</code></li>
+                </ul>
+            </li>
+            <li>Press Enter.</li>
+            <li>The IP address associated with the domain will be displayed.</li>
+        </ol>
+    </li>
+    <li>
+        <strong>Using the <code>ping</code> Command:</strong>
+        <ol type="a">
+            <li>Open the Command Prompt (Windows) or Terminal (Mac/Linux).</li>
+            <li>Type the command <code>ping</code> followed by the domain name. For example:
+                <ul>
+                    <li><code>ping google.com</code></li>
+                    <li><code>ping google.com.ua</code></li>
+                    <li><code>ping ucode.world</code></li>
+                </ul>
+            </li>
+            <li>Press Enter.</li>
+            <li>The IP address associated with the domain will be displayed along with other information.</li>
+        </ol>
+    </li>
+    <li>
+        <strong>Using Online Tools:</strong>
+        <ol type="a">
+            <li>Various online tools are available that allow you to find the IP address of a domain. Examples include
+                "WhatIsMyIP.com," "IP Location Lookup," or "DNS Lookup" tools.</li>
+            <li>Open a web browser.</li>
+            <li>Visit one of these online tools.</li>
+            <li>Enter the domain name in the provided field or select the appropriate options.</li>
+            <li>Click on the "Lookup" or "Search" button.</li>
+            <li>The IP address associated with the domain will be displayed.</li>
+        </ol>
+    </li>
+</ol>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.gauntlet {
+    height: 300px;
+}
+
+.person {
+    height: 70px;
+}
+.oddperson {
+    height: 70px;
+}
+
+.gauntlet:hover~.oddperson:nth-child(odd),
+.gauntlet:hover~.person:nth-child(odd){
+    visibility: hidden;
+}

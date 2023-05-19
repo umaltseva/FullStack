@@ -1,0 +1,165 @@
+body {
+    background-color: #003033;
+    display: grid;
+    /* grid-gap: 20px; */
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    /* background: #149CEA; */
+
+}
+.grid_for_protocol {
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 2vw;
+}
+
+.grid:last-child {
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin-bottom: 50px;
+
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .grid_for_protocol {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 320px) {
+    .grid_for_protocol {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    padding: 20px;
+    background: #FBF5EE;
+    color: black;
+    flex-direction: column;
+    position: relative;
+    
+    /* text-align: center; */
+}
+
+.Handbook {
+    font-family: "JetBrains Mono";
+    text-align: center;
+    color: #C2DF93;
+}
+
+.header {
+    font-family: "JetBrains Mono";
+    text-align: center;
+    color: #FBF5EE;
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: red;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+table,
+td {
+    border: 1px solid #333;
+    margin-left: auto;
+        margin-right: auto;
+}
+
+thead,
+tfoot {
+    background-color: #003033;
+    color: #fff;
+    
+}
+
+#id {
+    
+    border: 2px solid #003033;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+
+#linear-gradient {
+    background: linear-gradient(#e66465, #9198e5);
+    width: 250px;
+    height: 50px;
+
+}
+
+#paragraph {
+    text-align: center;
+}
+
+#red_border {
+    border: 1px solid red;
+}
+
+#ff {
+    font-style: italic;
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: red;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#color {
+    color: red;
+    text-align: center;
+}
